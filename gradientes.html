@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons.flaticon.com/png/512/4498/premium/4498956.png?token=exp=1642014817~hmac=0e407801b3ba82abeda6ae85d3836b9d"
+      type="image/x-icon"
+    />
+    <!-- sale el icono en la barra del titulo -->
+    <title>Document</title>
+    <style>
+      body {
+        background: linear-gradient(
+          to bottom,
+          rgba(30, 87, 153, 1) 0%,
+          rgba(89, 148, 202, 1) 62%,
+          rgba(95, 154, 207, 0.7) 68%,
+          rgba(125, 185, 232, 0) 100%
+        );
+        background-color: red;
+        /* esto lo he cogido del texto del enunciado del ejerciio */
+      }
+      div {
+        width: 50vw;
+        height: 50vh;
+        cursor: url(cursor.png), auto;
+      }
+      button:disabled {
+        cursor: not-allowed;
+        /* para que no se pueda pulsar el boton */
+      }
+      img {
+        filter: blur(1px);
+        /* para que se ponga difuminado */
+        width: 90px;
+        height: auto;
+      }
+      img:hover {
+        filter: none;
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <input type="text" name="" id="" /> <button disabled>Click me</button>
+    <button>Volver</button>
+    <img src="4666169.webp" alt="" />
+  </body>
+</html>
